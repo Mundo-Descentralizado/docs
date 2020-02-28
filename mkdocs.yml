@@ -1,0 +1,19 @@
+site_name: Conceptos - Mundo Descentralizado
+# site_url: conceptos.mundodescentralizado.com
+site_author: Pol Lanski
+site_description: Todo lo que hay que saber sobre Blockchain en un repositorio de conceptos libre.
+
+nav:
+  - Inicio: index.md
+  - 'Conceptos':
+    - 'Qué es Blockchain?': 'blockchain.md'
+    - 'Criptomonedas': 'criptomonedas.md'
+    - 'Satoshi Nakamoto': 'satoshi.md'
+
+theme:
+  name: null
+  custom_dir: 'cinder'
+  # colorscheme: dracula
+
+markdown_extensions:
+  - admonition
